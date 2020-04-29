@@ -29,6 +29,8 @@
    color:green;
    padding:4px;
  }
+
+ 
  
  
  @media (max-width:988px)
@@ -102,7 +104,7 @@ marquee a{
 
 .statscolor{
   background: rgba(36,79,242,0.8);
-  padding:45px;
+  padding:80px;
 
   
 }
@@ -133,4 +135,86 @@ marquee a{
     
   }
 }
+
+
+.cardmargin{
+  margin-top: 15px;
+}
+
+.cardcolor{
+  background-color: white;
+  box-shadow: 0px 0px 15px   gray;
+ padding: 24px;
+ margin:0px 10px 0px 10px;
+}
+
+.cardmargin2{
+  margin-top: 45px;
+}
+
+@media (max-width:767px)
+{
+
+  .cardcolor{
+    background-color: white;
+    box-shadow: 0px 0px 15px   gray;
+   padding: 15px;
+     margin: 10px 30px;
+
+  }
+
+  
+}
+
+@media (max-width:416px)
+
+{
+  .itemmargin{
+    margin:20px;
+  }
+
+  .statscolor{
+    background: rgba(36,79,242,0.8);
+    padding:2px;
+  
+    
+  }
+}
+
+@media (max-width:990px)
+{
+  .statscolor{
+    background: rgba(36,79,242,0.8);
+    padding:30px;
+  
+    
+  }
+
+  .itemmargin{
+    margin:1px;
+  }
+
+  .margin990{
+    margin-top: 16px;
+  }
+}
+
+@media (max-width:771px)
+{
+  .statscolor{
+    background: rgba(36,79,242,0.8);
+    padding:10px;
+  
+    
+  }
+  .itemmargin{
+    margin:1px;
+  }
+
+  .margin990{
+    margin-top: 16px;
+  }
+  
+}
+
 
