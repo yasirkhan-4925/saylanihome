@@ -80,7 +80,7 @@
     margin-top: 4px;
   }
 
-marquee{
+.marquee1{
   background-color:#316DC3;
   color:white;
 
@@ -88,7 +88,7 @@ marquee{
   
 }
 
-marquee a{
+.marquee1 a{
   color:purple;
 }
 
@@ -218,3 +218,224 @@ marquee a{
 }
 
 
+/* section 4 styling */
+
+
+
+
+.sec4div1 h4 {
+  margin-left: 34px;
+ 
+}
+
+.sec4div2 h4{
+  /* margin-left: 60px; */
+}
+
+.inline h6{
+  display: inline;
+}
+
+ .pd{
+   padding: 25px 40px;
+ }
+
+ .pd h6{
+   margin-left: 30px;
+ }
+.sec4div1 .border{
+  border: 1px gray;
+  margin: 15px;
+}
+
+
+.sec4div1 .row{
+  margin-left: 20px;
+}
+
+.color{
+  color: #316DC3;
+}
+
+.marquee2{
+
+  width: 250px;
+  height: 220px;
+  margin-top: 18px;
+}
+
+
+@media (max-width:1171px)
+
+{
+  .pd{
+    padding: 20px 21px;
+  }
+}
+
+@media (max-width:989px)
+{
+  .pd{
+    padding: 40px 40px;
+  }
+
+  .sec4div2 h4{
+    margin-left: 40px;
+  }
+
+  .marquee2{
+    margin-left: 40px;
+  }
+  
+}
+
+
+/* @media (max-width:767px)
+{
+
+  .pd{
+    padding: 20px 70px;
+  }   
+
+  .sec4cnt{
+    margin: 0px 70px;
+  }
+
+} */
+
+
+@media (max-width:759px)
+
+{
+
+  .sec4cnt{
+    margin-left: 20px;
+    
+}
+
+.pd{
+  /* padding: 20px 21px; */
+}
+
+
+
+}
+
+@media (max-width:583px)
+{
+
+  .sec4cnt{
+    margin-left: 10px;
+    
+}
+
+
+
+
+}
+
+
+@media (max-width:559px)
+
+{
+  .sec4cnt{
+    margin-right:30px;
+    
+}
+
+.pd{
+  padding: 30px 30px;
+}
+
+.sec4cnt .row{
+  margin: 30px;
+}
+
+}
+
+
+@media (max-width:476px)
+
+
+{
+  .pd{
+    padding: 10px 10px;
+  }
+}
+
+
+
+@media (max-width:436px)
+
+{
+  .pd{
+    padding: 8px 8px;
+  }
+
+ 
+  
+}
+
+
+@media (max-width: 559px)
+
+{
+
+  .pd{
+    padding: 10px 1px;
+  }
+  .sec4div1 h4 {
+    margin-left: 1px;
+   
+  }
+  
+  .pd h6{
+    margin-left: 10px;
+  }
+ .sec4div1 .border{
+   border: 1px gray;
+   margin: 10px;
+ }
+ 
+ 
+ .sec4div1 .row{
+   margin-left: 1px;
+ }
+ 
+ .color{
+   color: #316DC3;
+ }
+ 
+ .marquee2{
+ 
+   width: 250px;
+   height: 220px;
+   margin-top: 10px;
+ }
+  
+}
+
+
+@media (max-width: 558px)
+{
+  .sec4div2 h4{
+
+    margin-left: 3px;
+
+  }
+  .marquee2{
+    margin-left: 3px;
+  }
+}
+
+
+@media (max-width: 497px)
+{
+  .pd{
+    padding: 0px 4px;
+  }
+
+  .sec4cnt .row{
+    margin: 1px;
+  }
+}
