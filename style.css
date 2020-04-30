@@ -439,3 +439,53 @@
     margin: 1px;
   }
 }
+
+
+/* image gallery section */
+
+.imggal{
+  width: 200px;
+  height: 150px;
+}
+
+
+@media (max-width: 991px)
+{
+  .imggal{
+    width:350px;
+    height: 300px;
+    margin: 3px;
+  }
+}
+
+
+  @media (max-width: 767px)
+{
+  .imggal{
+    width:730px;
+    height: 500px;
+    margin: 6px;
+  }
+
+
+  @media (max-width: 427px)
+{
+  .imggal{
+    width:730px;
+    height: 300px;
+    margin: 6px;
+  }
+}
+  
+
+@media (max-width: 355px)
+{
+  .imggal{
+    width:730px;
+    height:200px;
+    margin: 6px;
+  }
+}
+  
+  
+  
